@@ -32,7 +32,7 @@
 header {
   position: relative;
   height: 100vh;
-  width: 98.7vw;
+  width: 98.75vw;
   z-index: 50; }
   header .ratio {
     position: absolute; }
@@ -64,6 +64,7 @@ header {
         align-items: center; }
 
 .headerPages {
+  width: 100vw;
   height: 15vh;
   background-color: #535152; }
   .headerPages .navBarResponsive {
@@ -246,7 +247,8 @@ header {
     .mainColeccion .portadaColeccion .imgPortada {
       box-shadow: 5px 5px 10px #575555;
       position: relative;
-      margin-top: 14vh; }
+      margin-top: 14vh;
+      width: 50vw; }
     .mainColeccion .portadaColeccion .pColeccion {
       position: absolute;
       z-index: 1;
